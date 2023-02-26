@@ -1,0 +1,7 @@
+{{ instruction }}
+{%- for d in demonstration %}
+input:{{ d.question }}
+{{ completion }} {{ d.answer }}
+{%- endfor %}
+input:{{ input.text }}!
+{{ completion }}
