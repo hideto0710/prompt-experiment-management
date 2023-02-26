@@ -3,5 +3,5 @@
 input:{{ d.question }}
 {{ completion }} {{ d.answer }}
 {%- endfor %}
-input:{{ input.text }}!
+input:{{ input.text }}
 {{ completion }}
