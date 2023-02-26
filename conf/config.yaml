@@ -1,7 +1,13 @@
 prompt:
   instruction: >-
     Extract keywords from this text
-  demonstration: []
+  demonstration:
+    - question: |-
+        【OpenAI、次世代GPT-4を発表 - GANを採用し、驚異的な進化を遂げる】
+        OpenAIは、最新の人工知能技術を採用したGPT-4を発表した。GPT-4は、深層学習によって訓練され、Generative Adversarial Networks（GAN）を使用して、驚異的な進化を遂げた。
+        GANは、教師なし学習を可能にする技術であり、生成モデルと識別モデルの2つのモデルを使って、データを生成することができる。GPT-4は、GANを使って、より自然な文章を生成することができ、従来のGPT-3よりも高度な応用が可能になった。
+        さらに、GPT-4は、オープンソースで公開され、世界中の研究者や開発者が利用できるようになった。OpenAIのCEOは、「GPT-4の開発は、人工知能技術の進歩を加速させ、世界中の人々がより便利で、豊かな生活を送ることを可能にするだろう」と述べた。
+      answer: '{"keywords":["OpenAI","GPT-4","Generative Adversarial Networks","教師なし学習","GPT-3"]}'
   completion: >-
     keywords:
 openai:
